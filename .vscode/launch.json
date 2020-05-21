@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeTwoLinks",
+            "request": "launch",
+            "mainClass": "MergeTwoLinks",
+            "projectName": "LeetCodeRipper_88097b3d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
             "name": "Python: 当前文件",
             "type": "python",
             "request": "launch",

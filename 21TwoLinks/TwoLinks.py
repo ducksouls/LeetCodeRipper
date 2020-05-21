@@ -10,24 +10,30 @@ class Solution(object):
         :type l1: ListNode
         :type l2: ListNode
         :rtype: ListNode
+        1 -> 2 -> 2 -> 6 -> 11
+        1,2,4,5,12
         """
-        lst1 = self.toList(l1)
-        lst2 = self.toList(l2)
-        result = []
-        length = len(lst1) if len(lst1) >= len(lst2) else len(lst2) 
-        for i in range(length):
-            
-    def toList(self, listNode):
-        flag = True
+        result  = ListNode(l1.val)
+        # 两个节点判断是否为空
+        #空说明已经到头了
+        while(l1 is not None or l2 is not None):
+            # 判断找到最后一个
+            if(l2.val >= l1.val and l2.val < l1.next.val ):
+                pass
+            result = l1
+
+    def merge(self, l1, l2):
         lst = []
-        while flag:
-            if listNode is not None:
-                lst.append(listNode.val)
-            if(listNode.next is not None):
-                listNode = listNode.next
-            else:
-                flag  = False
-        return lst
+        lst.
+        l1Temp = None
+        l2Temp = None
+        if (l2.val >= l1.val and l2.val < l1.next.val ):
+            l2Temp = l2.next
+            l1Temp = l1.next
+            l1.next = l2
+            l2.next = l1Temp
+        return self.merge(l2, l2Temp)
+            
         
 
 
