@@ -1,3 +1,5 @@
+package cn.lai.leetcoderipper.list;
+
 class ListNode {
     int val;
     ListNode next;

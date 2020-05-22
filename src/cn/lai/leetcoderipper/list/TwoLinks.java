@@ -1,4 +1,4 @@
-import javax.sound.sampled.SourceDataLine;
+package cn.lai.leetcoderipper.list;
 
 /**
  * 好好的给我补了一课,java的引用传递 Q:为什么最后返回preHead就可以? A:这个算法的核心思想就是把小节点添加到preHead的后面去,
@@ -104,14 +104,5 @@ public class TwoLinks {
         // ListNode recursion = so.mergeTwoListsRecursion(null, null);
         // so.print(recursion);
 
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
     }
 }
