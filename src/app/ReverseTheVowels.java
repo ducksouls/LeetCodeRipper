@@ -36,6 +36,33 @@ public class ReverseTheVowels {
         return new String(str);
     }
 
+    // public boolean contains(char c){
+    // if(c=='a' || c=='e' || c=='i'|| c=='o' || c=='u' || c=='A' || c=='E' ||
+    // c=='I'|| c=='O' || c=='U' ) return true;
+    // else return false;
+
+    // }
+    // public String reverseVowels2(String s) {
+    // char arr[] = s.toCharArray();
+    // char tmp;
+    // int i = 0 , j = arr.length-1;
+    // while(i < j){
+    // while(!this.contains(arr[i]) && i < j) i ++ ;
+    // while(!this.contains(arr[j]) && i < j) j -- ;
+    // if(i < j ){
+    // tmp = arr[i];
+    // arr[i] = arr[j];
+    // arr[j] = tmp ;
+    // }
+    // else{
+    // break;
+    // }
+    // i ++;
+    // j --;
+    // }
+    // return String.valueOf(arr);
+    // }
+
     public static void main(String[] args) {
         ReverseTheVowels so = new ReverseTheVowels();
         String result = so.reverseVowels("hello");
