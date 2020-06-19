@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PlantFlower",
+            "request": "launch",
+            "mainClass": "app.PlantFlower",
+            "projectName": "LeetCodeRipper"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ShootBall",
             "request": "launch",
             "mainClass": "app.ShootBall",
