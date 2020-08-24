@@ -25,7 +25,13 @@ public class FriendCircle {
     }
 
     public int dfs(int[][] source, int i, int j) {
+
+        int m = source.length, n = source[0].length;
+        if (i >= m || j >= n)
+            return 0;
         // 这一竖或者这一行都是(i,j)的朋友
+        for (int x = i; x < source.length; x++) {
+        }
 
         // 把(i,j)标0
 
