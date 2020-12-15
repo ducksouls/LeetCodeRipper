@@ -3,21 +3,7 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - PlantFlower",
-            "request": "launch",
-            "mainClass": "app.PlantFlower",
-            "projectName": "LeetCodeRipper"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - ShootBall",
-            "request": "launch",
-            "mainClass": "app.ShootBall",
-            "projectName": "LeetCodeRipper"
-        },
+    "configurations":[
         {
             "type": "java",
             "name": "java当前文件",
